@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+div.content {
+    /*align-self: center;*/
+    margin: auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.content h1 {
+    text-align: center;
+}
+
+div.content th, div.content tr{
+    border: 1px solid black;
+    width: 30%;
+}
+
+
+div.content table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
